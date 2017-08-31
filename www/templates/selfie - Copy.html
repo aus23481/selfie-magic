@@ -1,0 +1,43 @@
+<ion-view view-title="Selfie Robot" hide-nav-bar="true"  >
+   <ion-content>
+      
+       <div class="row row-center" >
+                 <img  data-ng-src="{{imgURI}}" class="selfie" />
+     </div>
+        
+     <div class="row">
+      <div class="col" style="font-size:100px;text-align: center">
+        <a ng-hide="progress" style="cursor: pointer;" ng-click="selielyze()"><i class="icon ion-ios-camera larger"></i></a>
+        <ion-spinner ng-show="progress" icon="lines"></ion-spinner>
+      </div>
+    </div> 
+      
+      <div  ng-hide="progress1" style="text-transform: uppercase"  >
+          
+                <div  class="row title row-custom "    >
+                    <div class="col" >Person:</div>
+                    <div class="col">
+                        
+                            <div  style="clear:both">Gender:{{gender}}</div>
+                            <div style="clear:both">Age:{{age}} years</div>
+                            <div  style="clear:both">Glasses:{{glasses}}</div>
+                            
+                          
+                    </div>         
+                </div>
+          
+                <div  class="row title row-custom"   >Personality: {{smile}}</div>
+                <div  class="row title row-custom"    >Emotion: {{emotion}}</div>
+                <div  class="row title row-custom"   >Surprise:</div>
+               
+
+        </div>
+          
+          
+          
+     
+    
+  </ion-content>
+</ion-view>
+
+

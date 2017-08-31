@@ -1,0 +1,19 @@
+Person
+   Male
+   57 yea
+   Black African
+
+
+Personality
+       - Educated
+       -Hi
+
+Emotion: 
+            - Confidential
+            - Leader
+
+
+Surprise:
+
+
+              Message goes here

@@ -1,0 +1,91 @@
+<ion-view view-title="Selfie Magix" hide-nav-bar="false"  >
+   <ion-content>
+
+         <!--sabbir start--> 
+         
+         
+         <!--1-->
+         <div class="list card">
+
+        
+          <div class="item item-body selfie-div">
+          <!--emotion select option start-->
+       
+        <div style="height: 15px;"> </div>
+          <!--emotin select option end-->
+            <img class="full-image selfie-img selfie-img-cont" ng-click="selielyze()" src="{{imgURI}}">
+             <p>
+                <div class="row" style="padding:0;">
+                  <div class="col" style="font-size: 100px; text-align: center; padding-bottom: 8px; margin-top:-5px;">
+                    <!--<a ng-hide="progress" style="cursor: pointer;" ng-click="selielyze()"><i class="icon ion-ios-camera larger"></i>--><button ng-hide="progress" class="" style="border: 0px none; background: white;" ng-click="selielyze()" > <img src="./img/upload.png"  style="width: 20%;" /></button>                  
+                    
+                    <ion-spinner ng-show="progress" icon="lines"></ion-spinner>
+                  </div>
+                </div> 
+            </p>
+          </div>
+        
+         </div>
+         <!--1-->
+         
+         <!--2-->
+         <div class="card">
+          <div class="item item-divider">
+             <i class="icon ion-ios-person"></i> Person 
+          </div>
+          <div class="item item-text-wrap">
+            
+            <ul class="selfie-item">
+            	<li><p>You are a {{gender}}</p></li>
+                <li><p>You look {{age}} years young</p></li>
+                <li><p>{{glasses}}</p></li>
+				<li><p>your current location is: {{location}}</p></li>
+                
+            </ul>
+            
+          </div>
+          
+         </div>
+         <!--2-->
+         
+         <!--3-->
+         <div class="card">
+          <div class="item item-divider">
+             <i class="icon ion-help-buoy"></i> Personality 
+          </div>
+          <div class="item item-text-wrap">
+            
+            <ul class="selfie-item">
+            	<li><p>{{smileml}}</p></li>
+                <li><p>{{emotion}}</p></li>
+               
+            </ul>
+            
+          </div>
+          
+         </div>
+         <!--3-->
+         
+      
+         
+         <!--5-->
+         <div class="card">
+          <div class="item item-divider">
+            <i class="icon ion-ios-eye"></i> Surprise 
+          </div>
+          <div class="item item-text-wrap">
+            
+             <p> <i class="icon ion-quote quote-color"></i> {{surprise}} <i class="icon ion-quote quote-color"></i></p>
+
+          </div>
+          
+         </div>
+         <!--5-->
+         <div class="bottom-offset"></div>
+         <!--sabbir end-->
+         
+  
+  </ion-content>
+</ion-view>
+
+
